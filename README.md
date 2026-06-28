@@ -1,8 +1,8 @@
-# The Golden Voyage 🌊⚓
+# The Golden Voyage 
 
 A parallax scrolling web experience inspired by Eastern maritime mythology.
 Built for IIT Bombay Techfest — original concept, zero borrowed IP.
-
+**Live Site:** [golden-voyager.netlify.app](https://golden-voyager.netlify.app)
 ## Quick Start
 
 1. Open VS Code in this folder
