@@ -49,17 +49,3 @@ cursed-voyage/
 | 4 | Ghost Fleet | 4-depth fleet, rising lanterns |
 | 5 | The Return | Cherry petals canvas, dawn light |
 
-## Hosting (free)
-
-**Netlify (easiest):**
-1. Go to netlify.com → drag the entire `cursed-voyage/` folder onto the deploy area
-2. Get a live URL instantly
-
-**GitHub Pages:**
-1. Push to GitHub repo
-2. Settings → Pages → Deploy from main branch `/root`
-
-## Design Tokens
-
-All colors, spacing, and typography live in `css/main.css` under `:root {}`.
-Edit there to retheme the entire site.
