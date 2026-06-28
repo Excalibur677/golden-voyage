@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200" preserveAspectRatio="none" fill="none">
+  <path d="M0 80 C100 40 200 120 300 80 C400 40 500 120 600 80 C700 40 800 120 900 80 C1000 40 1100 120 1200 80 C1300 40 1380 100 1440 80 L1440 200 L0 200 Z"
+        fill="#1B5E7B" opacity="0.9"/>
+  <!-- Foam crests - Hokusai style -->
+  <path d="M100 48 Q140 18 185 44 Q165 58 130 62 Q110 58 100 48 Z" fill="white" opacity="0.55"/>
+  <path d="M100 48 Q115 35 135 45" stroke="white" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <path d="M600 48 Q640 15 688 42 Q668 57 630 61 Q610 56 600 48 Z" fill="white" opacity="0.5"/>
+  <path d="M600 48 Q618 33 638 43" stroke="white" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <path d="M1100 45 Q1138 14 1182 40 Q1162 55 1126 59 Q1106 54 1100 45 Z" fill="white" opacity="0.45"/>
+
+  <!-- Foam trail lines -->
+  <path d="M0 90 Q200 75 400 90 Q600 75 800 90 Q1000 75 1200 90 Q1320 80 1440 90"
+        stroke="white" stroke-width="1.5" fill="none" opacity="0.25"/>
+</svg>

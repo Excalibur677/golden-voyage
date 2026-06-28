@@ -1,0 +1,70 @@
+ 
+@media (max-width: 1024px) {
+  :root {
+    --text-5xl: 4rem;
+    --text-4xl: 3rem;
+    --text-6xl: 5rem;
+  }
+
+  .sea-god-wrap  { width: clamp(260px, 70vw, 500px); }
+  .section-text  { padding: var(--space-lg) var(--space-md); }
+}
+ 
+@media (max-width: 768px) {
+  :root {
+    --text-5xl: 2.8rem;
+    --text-4xl: 2.2rem;
+    --text-3xl: 1.8rem;
+    --text-6xl: 3.5rem;
+  }
+
+  .section-text {
+    padding: var(--space-md);
+    max-width: 95%;
+  }
+
+  .section-text h2  { font-size: 2rem; }
+  .section-text p   { font-size: var(--text-base); }
+
+  .sun-orb          { width: 90px; height: 90px; }
+  .harbour-ship     { width: 55vw; }
+  .torii-gate       { width: 70px; right: 5%; }
+
+  .ocean-boat       { width: 35vw; left: 10%; }
+
+  .sea-god-wrap     { width: 90vw; }
+  .god-eye          { width: 14px; height: 14px; }
+
+  .fleet-ship-1, .fleet-ship-4 { display: none; }
+  .fleet-ship-2     { left: 5%; }
+  .fleet-ship-3     { right: 5%; }
+
+  .lantern-wrap:nth-child(2) { display: none; }
+
+  .dawn-ship        { width: 65vw; }
+  .blossom-tree     { width: 28vw; }
+  .treasure         { width: 15vw; }
+
+  #s1-harbour .hero-title    { font-size: clamp(2rem, 10vw, 3.5rem); }
+  #s1-harbour .hero-subtitle { font-size: var(--text-base); }
+}
+ 
+@media (max-width: 480px) {
+  :root {
+    --text-5xl: 2.2rem;
+    --text-4xl: 1.8rem;
+  }
+
+  .cloud-layer      { width: 300%; left: -100%; }
+  .wave-layer       { width: 300%; left: -100%; }
+
+  .moon             { width: 50px; height: 50px; }
+  .fog-layer        { height: 120px; }
+
+  .tentacle-2, .tentacle-3 { display: none; }
+}
+ 
+@media (max-height: 500px) and (orientation: landscape) {
+  .voyage-section { min-height: 140vh; }
+  .scroll-hint    { display: none; }
+}

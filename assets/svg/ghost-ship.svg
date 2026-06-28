@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" fill="none">
+  <!-- Hull - weathered -->
+  <path d="M40 160 Q150 185 260 160 L245 185 Q150 205 55 185 Z" fill="#2E4057" opacity="0.7"/>
+  <path d="M55 160 Q150 178 245 160 L238 175 Q150 192 62 175 Z" fill="#3D5A80" opacity="0.5"/>
+
+  <!-- Main mast -->
+  <line x1="150" y1="40" x2="150" y2="160" stroke="#2E4057" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Front mast -->
+  <line x1="95" y1="65" x2="95" y2="160" stroke="#2E4057" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Tattered main sail -->
+  <path d="M153 44 Q205 90 190 158 L153 158 Z" fill="#FEF3E2" opacity="0.45"/>
+  <!-- Tear in sail -->
+  <path d="M175 100 L185 115 L170 120" stroke="#2E4057" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Second sail - tattered -->
+  <path d="M147 44 Q100 88 115 158 L147 158 Z" fill="#FEF3E2" opacity="0.35"/>
+
+  <!-- Front sail -->
+  <path d="M97 67 Q128 100 118 158 L97 158 Z" fill="#FFE0B2" opacity="0.3"/>
+
+  <!-- Flag - torn -->
+  <line x1="150" y1="40" x2="150" y2="15" stroke="#2E4057" stroke-width="2" opacity="0.7"/>
+  <path d="M150 15 L175 23 L168 31 L150 30 Z" fill="#E63946" opacity="0.6"/>
+
+  <!-- Rigging -->
+  <line x1="150" y1="44" x2="95" y2="68" stroke="#2E4057" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Ghost glow overlay -->
+  <ellipse cx="150" cy="100" rx="100" ry="70" fill="white" opacity="0.04"/>
+
+  <!-- Water reflection -->
+  <ellipse cx="150" cy="190" rx="90" ry="6" fill="#457B9D" opacity="0.2"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" fill="none">
+  <!-- Trunk -->
+  <path d="M95 320 Q90 260 88 220 Q85 180 92 150" stroke="#5D4037" stroke-width="18" stroke-linecap="round" fill="none"/>
+  
+  <!-- Main branches -->
+  <path d="M92 160 Q60 130 30 110" stroke="#5D4037" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M92 155 Q120 120 155 100" stroke="#5D4037" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M92 180 Q70 150 50 130" stroke="#5D4037" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M92 175 Q115 145 140 125" stroke="#5D4037" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M92 150 Q92 110 90 80" stroke="#5D4037" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- Sub-branches -->
+  <path d="M30 110 Q15 95 8 80" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M30 110 Q25 90 30 70" stroke="#5D4037" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M155 100 Q168 85 175 68" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M155 100 Q160 82 152 64" stroke="#5D4037" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M90 80 Q75 60 68 42" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M90 80 Q108 60 115 40" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Blossom clusters -->
+  <!-- Top cluster -->
+  <circle cx="90" cy="35" r="28" fill="#FFB4A2" opacity="0.85"/>
+  <circle cx="70" cy="45" r="22" fill="#FF8A80" opacity="0.7"/>
+  <circle cx="112" cy="42" r="20" fill="#FFB4A2" opacity="0.8"/>
+  <circle cx="90" cy="20" r="18" fill="#FFCDD2" opacity="0.75"/>
+
+  <!-- Left cluster -->
+  <circle cx="15" cy="72" r="24" fill="#FFB4A2" opacity="0.8"/>
+  <circle cx="30" cy="60" r="20" fill="#FF8A80" opacity="0.65"/>
+  <circle cx="5" cy="58" r="16" fill="#FFCDD2" opacity="0.7"/>
+
+  <!-- Right cluster -->
+  <circle cx="172" cy="60" r="24" fill="#FFB4A2" opacity="0.8"/>
+  <circle cx="155" cy="68" r="20" fill="#FF8A80" opacity="0.65"/>
+  <circle cx="182" cy="48" r="16" fill="#FFCDD2" opacity="0.7"/>
+
+  <!-- Mid-left cluster -->
+  <circle cx="38" cy="120" r="20" fill="#FFB4A2" opacity="0.75"/>
+  <circle cx="22" cy="112" r="16" fill="#FFCDD2" opacity="0.65"/>
+
+  <!-- Mid-right cluster -->
+  <circle cx="148" cy="115" r="20" fill="#FFB4A2" opacity="0.75"/>
+  <circle cx="162" cy="108" r="16" fill="#FFCDD2" opacity="0.65"/>
+
+  <!-- Individual blossoms (5-petal detail) -->
+  <g transform="translate(80, 30)">
+    <circle cx="0" cy="-6" r="3.5" fill="#FFCDD2"/>
+    <circle cx="5.7" cy="-1.9" r="3.5" fill="#FFCDD2"/>
+    <circle cx="3.5" cy="5" r="3.5" fill="#FFCDD2"/>
+    <circle cx="-3.5" cy="5" r="3.5" fill="#FFCDD2"/>
+    <circle cx="-5.7" cy="-1.9" r="3.5" fill="#FFCDD2"/>
+    <circle cx="0" cy="0" r="2.5" fill="#F4D03F"/>
+  </g>
+
+  <g transform="translate(165, 55)">
+    <circle cx="0" cy="-5" r="3" fill="#FFCDD2"/>
+    <circle cx="4.8" cy="-1.5" r="3" fill="#FFCDD2"/>
+    <circle cx="2.9" cy="4" r="3" fill="#FFCDD2"/>
+    <circle cx="-2.9" cy="4" r="3" fill="#FFCDD2"/>
+    <circle cx="-4.8" cy="-1.5" r="3" fill="#FFCDD2"/>
+    <circle cx="0" cy="0" r="2" fill="#F4D03F"/>
+  </g>
+</svg>
